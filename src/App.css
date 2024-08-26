@@ -1,0 +1,133 @@
+#root {
+  width: 1106px;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: #383838;
+}
+
+img {
+  border-radius: 10px;
+}
+/* css topComponent */
+.topComponent {
+  width: 633px;
+  height: 543px;
+}
+
+.topComponent .topInput:focus {
+  outline: none;
+}
+
+
+.dropdown .dropdown-toggle{
+  background-color: white;
+  color: #000000;
+}
+
+
+.dropdown {
+  width: 149px;
+  height: 48px;
+}
+
+.topComponent h1 {
+  color: #E6656E;
+}
+
+
+
+/* css bodyComponent */
+.btn-primary {
+  width: 85px;
+  height: 57px;
+  background-color:  #FF4D00;
+  border: none;
+  font-weight: bold;
+}
+
+
+.product {
+  width: 197px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+
+.product img {
+  width: 197px;
+  height: 197px;
+}
+
+
+.product i {
+  margin-top: 8px;
+}
+
+
+.product .productTitle {
+  height: 60px;
+}
+
+.product .productTitle p {
+  width: 80%;
+}
+
+.gridProduct {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px
+}
+
+
+
+/* css modal page 2 */
+
+.orderDetail {
+  margin-top: 24px;
+}
+
+.fa-trash-can {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DF3939;
+  border-radius: 10px;
+  color: white;
+}
+
+
+.fa-xmark {
+  width: 34px;
+  height: 39px;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+
+.type button {
+  width: 80px;
+}
+
+
+.minusplus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  background-color: #E64F16;
+  color: white;
+  border-radius: 10px;
+}
+
+.btnBuy {
+  width: 142px;
+  height: 57px;
+}
+
+.btnComment {
+  background-color: #0B5ED7;
+}

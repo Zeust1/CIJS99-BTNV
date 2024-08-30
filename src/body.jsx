@@ -88,7 +88,7 @@ const Body = () => {
       {/* line quà tặng + button "TẠO" */}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <h1>Quà tặng</h1>
-        <button className="btn btn-primary" type="submit">
+        <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">
           Tạo
         </button>
       </div>

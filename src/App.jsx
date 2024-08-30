@@ -9,7 +9,7 @@ const { Body, ProductInfo } = data;
 
 function App() {
   return(
-    <div>
+    <div style={{display: "flex", justifyContent: "center", gap: "30px"}}>
       <TopComponent/>
       <Body/>
       <Order/>
